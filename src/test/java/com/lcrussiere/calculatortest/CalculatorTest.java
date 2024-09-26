@@ -20,18 +20,16 @@ public class CalculatorTest {
 
     @Test
     public void testAdd() {
-        Calculator calculator = new Calculator();
         // Calculer la somme de opG et opD
-        int result = calculator.add(opG, opD);
-        assertEquals(result, calculator.add(opG, opD));
+        int result = Calculator.add(opG, opD);
+        assertEquals(result, Calculator.add(opG, opD));
     }
 
     @Test
     public void testDivide() {
-        Calculator calculator = new Calculator();
         // Calculer la division de opG par opD
-        int result = calculator.divide(opG, opD);
-        assertEquals(result, calculator.divide(opG, opD));
+        int result = Calculator.divide(opG, opD);
+        assertEquals(result, Calculator.divide(opG, opD));
     }
 
     @AfterEach
